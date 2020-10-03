@@ -1,3 +1,4 @@
+/* This will be applied to the whole body  */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,11 +9,12 @@ body {
     background-color: #d9dcd6;
 }
 
+/* This will be applied to all the headers  */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
+    color: #ffffff;   
 }
 
 header h1 {
@@ -30,26 +32,30 @@ header nav {
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
-
-header nav ul {
     list-style-type: none;
 }
+/* The below code was commented out as it was grouped with the above header nav code  */
+/* header nav ul {
+    list-style-type: none;
+} */
 
+/* This will be applied to the unoredered list in the navigation menu  */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* This will be applied to the 'a' tag in the code  */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* This will be applied to the 'p' tag in the code  */
 p {
     font-size: 16px;
 }
 
+/* This will be applied to the '.hero' tag in the code  */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +65,7 @@ p {
     background-position: center;
 }
 
+/* This will be applied to the images in the code  */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -75,6 +82,7 @@ p {
     margin-left: 20px;
 }
 
+/* This will be applied to the '.benefits' tag in the code  */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,22 +94,26 @@ p {
     background-color: #2589bd;
 }
 
+/* This will be applied to the '.all-benefits' tag in the code  */
 .all-benefits  {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* This will be applied to the '.all-benefits' heading in the code  */
 .all-benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* This will be applied to the '.all-benefits' image in the code  */
 .all-benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* This will be applied to the '.services' tag in the code  */
 .services {
     margin-bottom: 20px;
     padding: 50px;
@@ -111,15 +123,18 @@ p {
     color: #ffffff;
 }
 
+/* This will be applied to the '.services' image in the code  */
 .services img {
     max-height: 200px;
 }
 
+/* This will be applied to the '.services' heading in the code  */
 .services h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* This will be applied to the footer in the code  */
 footer {
     padding: 30px;
     clear: both;
@@ -127,6 +142,7 @@ footer {
     text-align: center;
 }
 
+/* This will be applied to the footer heading in the code  */
 footer h2 {
     font-size: 20px;
 }
